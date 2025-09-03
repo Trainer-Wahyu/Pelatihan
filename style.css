@@ -23,7 +23,7 @@ body {
     text-align: center; /* Menengahkan semua teks di dalam kartu */
 }
 
-daftar-proyek {
+.daftar-proyek {
     display: flex; /* Aktifkan mode Flexbox! */
     justify-content: center; /* Pusatkan semua kartu di tengah */
     gap: 20px; /* Beri jarak 20px antar kartu */
