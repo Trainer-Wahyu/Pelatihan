@@ -35,3 +35,14 @@ body {
     border-radius: 10px;
     width: 200px;
 }
+
+@media (max-width: 600px) {
+    .daftar-proyek {
+        flex-direction: column; /* Change the flex direction from row to column */
+        align-items: center;    /* Center the stacked cards */
+    }
+    .kartu-profil {
+        width: 90%; /* Make the main card wider on small screens */
+    }
+}
+
