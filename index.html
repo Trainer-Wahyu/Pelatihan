@@ -1,52 +1,43 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya - Wahyudi</title>
+    <title>Profil Saya - Wahyudi</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header / Navigasi Atas -->
-    <header class="header-halaman">
-        <div class="logo">Portofolio</div>
-        <button id="tombol-tema" aria-label="Ganti tema mode">🌙</button>
-    </header>
+    <div class="kartu-profil">
+        <img src="foto-profil.jpg" alt="Foto profil saya">
+        <header>
+            <h1>Joedie Meyson</h1>
+            <button id="tombol-tema">🌙</button>
+        </header>
 
-    <!-- Konten Utama Halaman -->
-    <main>
-        <!-- Bagian 1: Kartu Profil -->
-        <section id="profil" class="kartu-profil">
-            <img src="foto-profil.jpg" alt="Foto profil Wahyudi" class="foto-profil">
-            <h1>Wahyudi</h1>
-            <p class="bio">Siswa SMA yang tertarik dengan teknologi dan desain. Selamat datang di website pertama saya!</p>
-            
-            <div class="aksi-profil">
-                <a href="https://www.instagram.com/usernameanda" target="_blank" rel="noopener noreferrer" class="link-sosmed">Kunjungi Instagram Saya</a>
-                <button id="tombol-sapa">Sapa Saya!</button>
+        <main>
+            <section id="profil">
+                <p>Siswa SMA yang tertarik dengan teknologi dan desain. Selamat datang di website pertama saya!</p>
+                <a href="https://www.instagram.com/usernameanda">Kunjungi Instagram Saya</a>
+            </section>
+            <button id="sapaButton">Sapa Saya!</button>
+        </main>
+    </div>
+
+    <section id="proyek">
+        <h2>Proyek Saya</h2>
+        <div class="daftar-proyek">
+            <div class="kartu-proyek">
+                <h3>Desain Poster 17-an</h3>
+                <p>Membuat desain poster untuk acara kemerdekaan di sekolah menggunakan Canva.</p>
             </div>
-        </section>
-
-        <!-- Bagian 2: Daftar Proyek -->
-        <section id="proyek" class="bagian-proyek">
-            <h2>Proyek Saya</h2>
-            <div class="daftar-proyek">
-                <article class="kartu-proyek">
-                    <h3>Desain Poster 17-an</h3>
-                    <p>Membuat desain poster untuk acara kemerdekaan di sekolah menggunakan Canva.</p>
-                </article>
-                <article class="kartu-proyek">
-                    <h3>Website Portofolio</h3>
-                    <p>Website pertama yang saya buat untuk menampilkan profil dan proyek saya.</p>
-                </article>
+            <div class="kartu-proyek">
+                <h3>Website Portofolio</h3>
+                <p>Website pertama yang saya buat untuk menampilkan profil dan proyek saya.</p>
             </div>
-        </section>
-    </main>
+            </div>
+    </section>
 
-    <!-- Footer / Catatan Kaki -->
     <footer>
-        <p>&copy; 2026 Wahyudi. Dibuat untuk latihan web dasar.</p>
+        <p>&copy; 2024 Wahyudi. Dibuat dengan cinta.</p>
     </footer>
 
     <script src="script.js"></script>
